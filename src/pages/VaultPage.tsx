@@ -5,7 +5,13 @@ function VaultPage() {
 
     return (
         <div>Value
-            {activeTab == "people" }
+            {activeTab === "people" ? (
+                <div>people</div>
+            ) : (
+                <div>not people
+                    <button onClick={() => setActiveTab("ideas")}>Change</button>
+                </div>
+            )}
         </div>
     )
 }
