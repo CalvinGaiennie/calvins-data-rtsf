@@ -106,3 +106,6 @@ export const data: Quote[] = [
         my_reference: "the last few mins of founders what I learned at dinner with charlie munger"
     }
 ];
+
+
+export const essayNames = ["What is an essay", "How to write an essay", "Why write essays", "Essays vs Blogs", "My favorite essays",]
